@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "title": "Optic — Gabinet Okulistyczny i Optyczny",
+    "description": "Profesjonalne konsultacje okulistyczne, diagnostyka jaskry, badania wzroku oraz usługi optyczne premium w Kościanie."
+  },
+  "nav": {
+    "home": "Strona główna",
+    "services": "Usługi medyczne",
+    "opticalSalon": "Salon optyczny",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "schedule": "Umów wizytę",
+    "brand": "OCULUS",
+    "tagline": "Dr Magdalena Turek"
+  },
+  "hero": {
+    "eyebrow": "Gabinet Okulistyczny i Optyczny",
+    "title": "Chronimy Twój Wzrok z Ekspertyzą",
+    "titleAccent": "I Troską",
+    "description": "Profesjonalne konsultacje okulistyczne, diagnostyka jaskry, badania wzroku oraz usługi optyczne premium w Kościanie.",
+    "schedule": "Umów wizytę",
+    "call": "Zadzwoń teraz",
+    "imageAlt": "Nowoczesna diagnostyka okulistyczna"
+  },
+  "trustMetrics": [
+    {
+      "value": "25+",
+      "label": "Lat doświadczenia",
+      "description": "Sprawdzona wiedza"
+    },
+    {
+      "value": "1000s",
+      "label": "Badań wzroku",
+      "description": "Zadowoleni pacjenci"
+    },
+    {
+      "value": "Nowoczesny",
+      "label": "Sprzęt diagnostyczny",
+      "description": "Najnowsza technologia"
+    },
+    {
+      "value": "NFZ",
+      "label": "i wizyty prywatne",
+      "description": "Elastyczne opcje"
+    }
+  ],
+  "aboutPreview": {
+    "eyebrow": "O OCULUS",
+    "title": "Kompleksowa Opieka nad Wzrokiem w Jednym Miejscu",
+    "paragraph1": "Od lat OCULUS zapewnia specjalistyczną opiekę okulistyczną pacjentom z Kościana i okolic.",
+    "paragraph2": "Łącząc wiedzę medyczną, zaawansowaną diagnostykę oraz profesjonalny salon optyczny, gabinet oferuje pełną opiekę nad wzrokiem w jednym wygodnym miejscu.",
+    "cta": "Dowiedz się więcej o nas",
+    "imageAlt": "Precyzyjna optyka"
+  },
+  "servicesOverview": {
+    "label": "Nasze usługi",
+    "title": "Kompleksowa Opieka nad Wzrokiem",
+    "description": "Od zaawansowanej diagnostyki po premium okulary — wszystko, czego potrzebują Twoje oczy, w jednym miejscu.",
+    "learnMore": "Dowiedz się więcej",
+    "items": [
+      {
+        "title": "Badania wzroku",
+        "desc": "Kompleksowa ocena zdrowia wzroku.",
+        "path": "/services"
+      },
+      {
+        "title": "Diagnostyka jaskry",
+        "desc": "Wczesne wykrywanie i monitoring.",
+        "path": "/services"
+      },
+      {
+        "title": "Konsultacje chorób oczu",
+        "desc": "Diagnostyka i plan leczenia.",
+        "path": "/services"
+      },
+      {
+        "title": "Testy widzenia",
+        "desc": "Precyzyjna ocena ostrości wzroku.",
+        "path": "/services"
+      },
+      {
+        "title": "Salon optyczny",
+        "desc": "Okulary korekcyjne i oprawy.",
+        "path": "/optical-salon"
+      },
+      {
+        "title": "Soczewki kontaktowe",
+        "desc": "Profesjonalne dopasowanie i konsultacja.",
+        "path": "/optical-salon"
+      }
+    ]
+  },
+  "brandShowcase": {
+    "label": "Wybrane marki",
+    "title": "Kolekcje Okularów Premium",
+    "description": "Starannie wybrane, światowej klasy marki okularowe, profesjonalnie dopasowane do Twojej korekcji.",
+    "brands": [
+      "Ray-Ban",
+      "Vogue",
+      "Adidas",
+      "Silhouette",
+      "Oakley",
+      "Emporio Armani",
+      "Versace",
+      "Polo Ralph Lauren"
+    ]
+  },
+  "testimonials": {
+    "label": "Opinie pacjentów",
+    "title": "Zaufanie tysięcy pacjentów",
+    "description": "Co pacjenci mówią o wizycie w OCULUS.",
+    "items": [
+      {
+        "name": "Anna K.",
+        "text": "Niesamowicie profesjonalnie i z troską. Pani doktor Turek poświęciła czas, by wyjaśnić każdy etap badania. Wreszcie znalazłam lekarza, któremu ufam w kwestii wzroku.",
+        "focus": "Profesjonalizm i troska"
+      },
+      {
+        "name": "Marek W.",
+        "text": "Diagnostyka jaskry była dokładna i precyzyjna. Nowoczesny sprzęt oraz spokojna atmosfera sprawiły, że wizyta była bardzo komfortowa.",
+        "focus": "Precyzyjna diagnostyka"
+      },
+      {
+        "name": "Katarzyna S.",
+        "text": "Piękny wybór opraw, a personel pomógł mi dobrać idealną parę. Salon optyczny jest elegancki i przyjazny.",
+        "focus": "Wyjątkowa obsługa"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Twój wzrok ma znaczenie",
+    "titleLine1": "Twoje oczy zasługują",
+    "titleLine2": "na ekspercką opiekę",
+    "description": "Umów konsultację już dziś i poczuj różnicę spersonalizowanej, eksperckiej opieki nad wzrokiem.",
+    "schedule": "Umów wizytę",
+    "imageAlt": "Opieka nad wzrokiem"
+  },
+  "footer": {
+    "brand": "OCULUS",
+    "tagline": "Dr Magdalena Turek",
+    "description": "Kompleksowa opieka okulistyczna oraz usługi optyczne premium w Kościanie.",
+    "quickLinksTitle": "Szybkie linki",
+    "contactTitle": "Kontakt",
+    "hoursTitle": "Godziny otwarcia",
+    "links": {
+      "services": "Usługi medyczne",
+      "opticalSalon": "Salon optyczny",
+      "about": "O gabinecie",
+      "contact": "Kontakt"
+    },
+    "addressLine1": "Moniuszki 10",
+    "addressLine2": "64-000 Kościan, Polska",
+    "nfzLabel": "NFZ",
+    "nfzHours": "Pn–Pt: różnie",
+    "privateLabel": "Prywatnie",
+    "privateMon": "Pn: 17:00–21:00",
+    "privateThu": "Czw: 16:00–21:00",
+    "copyright": "OCULUS Dr Magdalena Turek. Wszelkie prawa zastrzeżone.",
+    "maps": "Zobacz w Google Maps →"
+  },
+  "patientJourney": {
+    "label": "Twoja ścieżka",
+    "title": "Od wizyty do opieki po badaniu",
+    "description": "Płynne, życzliwe doświadczenie na każdym etapie.",
+    "steps": [
+      { "label": "Wizyta", "desc": "Umówienie terminu" },
+      { "label": "Badanie", "desc": "Dokładna diagnostyka" },
+      { "label": "Diagnoza", "desc": "Jasne omówienie wyników" },
+      { "label": "Plan leczenia", "desc": "Spersonalizowane zalecenia" },
+      { "label": "Kontrola", "desc": "Stała opieka nad wzrokiem" }
+    ]
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Usługi medyczne — OCULUS",
+      "description": "Kompleksowa opieka nad wzrokiem oparta na ponad 25 latach doświadczenia medycznego i nowoczesnej diagnostyce."
+    },
+    "hero": {
+      "label": "Usługi medyczne",
+      "title": "Ekspercka Opieka Okulistyczna",
+      "description": "Kompleksowa opieka nad wzrokiem oparta na ponad 25 latach doświadczenia medycznego i nowoczesnej diagnostyce."
+    },
+    "medical": {
+      "label": "Usługi medyczne",
+      "title": "Precyzyjna Diagnostyka",
+      "description": "Każde badanie prowadzimy z dbałością o szczegóły, korzystając z zaawansowanego sprzętu, by zapewnić dokładną diagnozę.",
+      "items": [
+        {
+          "title": "Kompleksowe badanie wzroku",
+          "desc": "Szczegółowa ocena widzenia i zdrowia oczu, w tym badanie ostrości wzroku, ciśnienia śródgałkowego, fundoskopia oraz badanie odcinka przedniego.",
+          "features": [
+            "Ocena ostrości wzroku",
+            "Ciśnienie śródgałkowe",
+            "Badanie dna oka",
+            "Biomikroskopia lampą szczelinową"
+          ]
+        },
+        {
+          "title": "Diagnostyka jaskry",
+          "desc": "Zaawansowany monitoring ciśnienia śródgałkowego i progresji jaskry z użyciem nowoczesnego sprzętu diagnostycznego — wczesne wykrywanie i leczenie.",
+          "features": [
+            "Tonometria",
+            "Badanie pola widzenia",
+            "Ocena nerwu wzrokowego",
+            "Monitoring progresji"
+          ]
+        },
+        {
+          "title": "Profilaktyka wzroku",
+          "desc": "Regularne badania i długoterminowe plany ochrony wzroku, które pomagają wykryć problemy zanim staną się poważne.",
+          "features": [
+            "Regularne badania",
+            "Ocena ryzyka",
+            "Porady dotyczące stylu życia",
+            "Długoterminowy monitoring"
+          ]
+        },
+        {
+          "title": "Konsultacje chorób oczu",
+          "desc": "Ekspercka diagnostyka i plan leczenia szerokiego spektrum schorzeń narządu wzroku — od typowych do złożonych przypadków.",
+          "features": [
+            "Ekspercka diagnoza",
+            "Plan leczenia",
+            "Kierowanie do specjalistów",
+            "Opieka ciągła"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gotowi na badanie?",
+      "description": "Umów konsultację i zrób pierwszy krok ku lepszemu wzrokowi.",
+      "button": "Umów wizytę"
+    }
+  },
+  "comingSoon": {
+    "label": "Wkrótce",
+    "message": "Ta strona jest jeszcze w przygotowaniu. Zapraszamy wkrótce."
+  },
+  "language": {
+    "pl": "PL",
+    "en": "EN",
+    "label": "Język"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "title": "Optic — Ophthalmology & Optical Clinic",
+    "description": "Professional ophthalmology consultations, glaucoma diagnostics, vision examinations, and premium optical services in Kościan."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Medical Services",
+    "opticalSalon": "Optical Salon",
+    "about": "About",
+    "contact": "Contact",
+    "schedule": "Schedule Visit",
+    "brand": "OCULUS",
+    "tagline": "Dr. Magdalena Turek"
+  },
+  "hero": {
+    "eyebrow": "Ophthalmology & Optical Clinic",
+    "title": "Protecting Your Vision With Expertise",
+    "titleAccent": "And Care",
+    "description": "Professional ophthalmology consultations, glaucoma diagnostics, vision examinations, and premium optical services in Kościan.",
+    "schedule": "Schedule Appointment",
+    "call": "Call Now",
+    "imageAlt": "Modern ophthalmology diagnostics"
+  },
+  "trustMetrics": [
+    {
+      "value": "25+",
+      "label": "Years of Experience",
+      "description": "Trusted expertise"
+    },
+    {
+      "value": "1000s",
+      "label": "Eye Examinations",
+      "description": "Patients treated"
+    },
+    {
+      "value": "Modern",
+      "label": "Diagnostic Equipment",
+      "description": "Latest technology"
+    },
+    {
+      "value": "NFZ",
+      "label": "& Private Consultations",
+      "description": "Flexible options"
+    }
+  ],
+  "aboutPreview": {
+    "eyebrow": "About OCULUS",
+    "title": "Comprehensive Eye Care, One Location",
+    "paragraph1": "For years, OCULUS has provided specialized ophthalmological care for patients in Kościan and the surrounding region.",
+    "paragraph2": "Combining medical expertise, advanced diagnostics, and a professional optical salon, the clinic offers complete eye care in one convenient location.",
+    "cta": "Learn More About Us",
+    "imageAlt": "Precision optics"
+  },
+  "servicesOverview": {
+    "label": "Our Services",
+    "title": "Complete Vision Care",
+    "description": "From advanced diagnostics to premium eyewear, everything your eyes need under one roof.",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "title": "Eye Examinations",
+        "desc": "Comprehensive assessment of visual health.",
+        "path": "/services"
+      },
+      {
+        "title": "Glaucoma Diagnostics",
+        "desc": "Early detection and monitoring.",
+        "path": "/services"
+      },
+      {
+        "title": "Eye Disease Consultation",
+        "desc": "Diagnosis and treatment planning.",
+        "path": "/services"
+      },
+      {
+        "title": "Vision Testing",
+        "desc": "Precise visual acuity assessment.",
+        "path": "/services"
+      },
+      {
+        "title": "Optical Salon",
+        "desc": "Prescription glasses and eyewear.",
+        "path": "/optical-salon"
+      },
+      {
+        "title": "Contact Lenses",
+        "desc": "Professional fitting and consultation.",
+        "path": "/optical-salon"
+      }
+    ]
+  },
+  "brandShowcase": {
+    "label": "Featured Brands",
+    "title": "Premium Eyewear Collections",
+    "description": "Curated selection of world-renowned eyewear brands, professionally fitted to your prescription.",
+    "brands": [
+      "Ray-Ban",
+      "Vogue",
+      "Adidas",
+      "Silhouette",
+      "Oakley",
+      "Emporio Armani",
+      "Versace",
+      "Polo Ralph Lauren"
+    ]
+  },
+  "testimonials": {
+    "label": "Patient Reviews",
+    "title": "Trusted by Thousands",
+    "description": "What our patients say about their experience at OCULUS.",
+    "items": [
+      {
+        "name": "Anna K.",
+        "text": "Incredibly professional and caring. Dr. Turek took the time to explain every aspect of the examination. I finally found a doctor I can trust with my vision.",
+        "focus": "Professionalism & Care"
+      },
+      {
+        "name": "Marek W.",
+        "text": "The glaucoma diagnostics were thorough and precise. The modern equipment and calm atmosphere made the experience very comfortable.",
+        "focus": "Accurate Diagnosis"
+      },
+      {
+        "name": "Katarzyna S.",
+        "text": "Beautiful selection of frames and the staff helped me choose the perfect pair. The optical salon is elegant and welcoming.",
+        "focus": "Exceptional Service"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Your Vision Matters",
+    "titleLine1": "Your Eyes Deserve",
+    "titleLine2": "Expert Attention",
+    "description": "Book your consultation today and experience the difference of personalized, expert eye care.",
+    "schedule": "Schedule Appointment",
+    "imageAlt": "Vision care"
+  },
+  "footer": {
+    "brand": "OCULUS",
+    "tagline": "Dr. Magdalena Turek",
+    "description": "Comprehensive ophthalmological care and premium optical services in Kościan.",
+    "quickLinksTitle": "Quick Links",
+    "contactTitle": "Contact",
+    "hoursTitle": "Opening Hours",
+    "links": {
+      "services": "Medical Services",
+      "opticalSalon": "Optical Salon",
+      "about": "About the Clinic",
+      "contact": "Contact"
+    },
+    "addressLine1": "Moniuszki 10",
+    "addressLine2": "64-000 Kościan, Poland",
+    "nfzLabel": "NFZ",
+    "nfzHours": "Mon–Fri: varies",
+    "privateLabel": "Private",
+    "privateMon": "Mon: 17:00–21:00",
+    "privateThu": "Thu: 16:00–21:00",
+    "copyright": "OCULUS Dr. Magdalena Turek. All rights reserved.",
+    "maps": "View on Google Maps →"
+  },
+  "patientJourney": {
+    "label": "Your Journey",
+    "title": "From Appointment to Aftercare",
+    "description": "A seamless, compassionate experience at every step.",
+    "steps": [
+      { "label": "Appointment", "desc": "Schedule your visit" },
+      { "label": "Examination", "desc": "Thorough diagnostic check" },
+      { "label": "Diagnosis", "desc": "Clear results explained" },
+      { "label": "Treatment Plan", "desc": "Personalized recommendations" },
+      { "label": "Follow-Up", "desc": "Ongoing vision care" }
+    ]
+  },
+  "servicesPage": {
+    "meta": {
+      "title": "Medical Services — OCULUS",
+      "description": "Comprehensive eye health services backed by 25+ years of medical expertise and modern diagnostic technology."
+    },
+    "hero": {
+      "label": "Medical Services",
+      "title": "Expert Ophthalmological Care",
+      "description": "Comprehensive eye health services backed by 25+ years of medical expertise and modern diagnostic technology."
+    },
+    "medical": {
+      "label": "Medical Services",
+      "title": "Precision Diagnostics",
+      "description": "Every examination is conducted with meticulous attention to detail, using advanced equipment to ensure accurate diagnosis.",
+      "items": [
+        {
+          "title": "Comprehensive Eye Examination",
+          "desc": "Detailed assessment of vision and eye health including visual acuity testing, ocular pressure measurement, fundoscopy, and anterior segment examination.",
+          "features": [
+            "Visual acuity assessment",
+            "Intraocular pressure",
+            "Fundus examination",
+            "Slit-lamp biomicroscopy"
+          ]
+        },
+        {
+          "title": "Glaucoma Diagnostics",
+          "desc": "Advanced monitoring of intraocular pressure and glaucoma progression using state-of-the-art diagnostic equipment for early detection and management.",
+          "features": [
+            "Tonometry",
+            "Visual field testing",
+            "Optic nerve evaluation",
+            "Progression monitoring"
+          ]
+        },
+        {
+          "title": "Preventive Eye Care",
+          "desc": "Routine examinations and long-term vision protection plans designed to detect potential issues before they become serious conditions.",
+          "features": [
+            "Regular screenings",
+            "Risk assessment",
+            "Lifestyle guidance",
+            "Long-term monitoring"
+          ]
+        },
+        {
+          "title": "Eye Disease Consultation",
+          "desc": "Expert diagnosis and treatment planning for a wide range of ocular conditions, from common ailments to complex cases requiring specialized attention.",
+          "features": [
+            "Expert diagnosis",
+            "Treatment planning",
+            "Specialist referrals",
+            "Ongoing management"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready for Your Examination?",
+      "description": "Schedule a consultation and take the first step toward better vision.",
+      "button": "Schedule Appointment"
+    }
+  },
+  "comingSoon": {
+    "label": "Coming soon",
+    "message": "This page is still in progress. Please check back shortly."
+  },
+  "language": {
+    "pl": "PL",
+    "en": "EN",
+    "label": "Language"
+  }
+}
