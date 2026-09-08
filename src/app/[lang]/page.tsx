@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Hero from "@/components/home/hero";
 import TrustMetrics from "@/components/home/trust-metrics";
+import Highlights from "@/components/home/highlights";
 import AboutPreview from "@/components/home/about-preview";
 import ServicesOverview from "@/components/home/services-overview";
 import BrandShowcase from "@/components/home/brand-showcase";
@@ -25,6 +26,7 @@ export default async function Home({
     <>
       <Hero lang={lang} copy={dict.hero} />
       <TrustMetrics items={dict.trustMetrics} />
+      <Highlights copy={dict.highlights} />
       <AboutPreview lang={lang} copy={dict.aboutPreview} />
       <ServicesOverview lang={lang} copy={dict.servicesOverview} />
       <BrandShowcase copy={dict.brandShowcase} />

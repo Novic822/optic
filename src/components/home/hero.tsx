@@ -8,8 +8,7 @@ import { Button } from "@/components/ui/button";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import type { Locale } from "@/i18n/config";
 
-const HERO_IMG =
-  "https://media.base44.com/images/public/6a2c025b442be19169396a2c/80d5c25cf_generated_c06bed2f.png";
+const HERO_IMG ="/assets/HERO_IMG.png";
 
 type HeroProps = {
   lang: Locale;

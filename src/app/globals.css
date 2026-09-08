@@ -14,9 +14,9 @@
   --color-navy: var(--navy);
   --color-gold: var(--gold);
   --color-silver: var(--silver);
-  --font-sans: var(--font-dm-sans);
-  --font-body: var(--font-dm-sans);
-  --font-display: var(--font-cormorant);
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
 }
 
 body {

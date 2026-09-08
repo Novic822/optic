@@ -8,9 +8,8 @@ import { Button } from "@/components/ui/button";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import type { Locale } from "@/i18n/config";
 
-const EYE_IMG =
-  "https://media.base44.com/images/public/6a2c025b442be19169396a2c/6812e6e45_generated_25616591.png";
-
+const EYE_IMG ="/assets/EYE_IMG.png";
+  
 type CTASectionProps = {
   lang: Locale;
   copy: Dictionary["cta"];

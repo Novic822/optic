@@ -1,22 +1,8 @@
 import { notFound } from "next/navigation";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
-
-const display = Cormorant_Garamond({
-  variable: "--font-cormorant",
-  subsets: ["latin", "latin-ext"],
-  weight: ["400", "500", "600", "700"],
-  style: ["normal", "italic"],
-});
-
-const body = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin", "latin-ext"],
-  weight: ["400", "500", "600", "700"],
-});
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -52,10 +38,19 @@ export default async function LangLayout({
   const dict = await getDictionary(lang);
 
   return (
-    <html
-      lang={lang}
-      className={`${display.variable} ${body.variable} h-full antialiased`}
-    >
+    <html lang={lang} className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="min-h-full flex flex-col font-body">
         <Navbar
           lang={lang}

@@ -6,8 +6,8 @@ import ServicesCta from "@/components/services/services-cta";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 
-const HERO_IMG =
-  "https://media.base44.com/images/public/6a2c025b442be19169396a2c/5f205c1bb_generated_6c533051.png";
+const HERO_SERVICE_IMG =
+  "/assets/HERO_SERVICE_IMG.png";
 
 export async function generateMetadata({
   params,
@@ -43,7 +43,7 @@ export default async function ServicesPage({
         label={page.hero.label}
         title={page.hero.title}
         description={page.hero.description}
-        image={HERO_IMG}
+        image={HERO_SERVICE_IMG}
       />
       <MedicalServices copy={page.medical} />
       <PatientJourney copy={dict.patientJourney} />

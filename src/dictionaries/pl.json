@@ -237,6 +237,216 @@
     "label": "Wkrótce",
     "message": "Ta strona jest jeszcze w przygotowaniu. Zapraszamy wkrótce."
   },
+  "highlights": {
+    "sectionLabel": "Aktualności",
+    "types": {
+      "vacation": "Zmiana grafiku",
+      "new_arrival": "Nowość",
+      "announcement": "Ogłoszenie",
+      "promotion": "Oferta specjalna",
+      "general": "Informacja"
+    },
+    "items": [
+      {
+        "id": "vacation-summer-2026",
+        "visible": true,
+        "icon": "calendar",
+        "type": "vacation",
+        "title": "Zamknięcie na urlop letni",
+        "description": "Gabinet będzie zamknięty od 18 do 31 sierpnia 2026 z powodu urlopu letniego. Regularne godziny wracają 1 września. W sprawach pilnych prosimy dzwonić pod +48 602 463 717."
+      },
+      {
+        "id": "new-arrival-lindberg",
+        "visible": true,
+        "icon": "glasses",
+        "type": "new_arrival",
+        "title": "Nowa marka okularów: Lindberg",
+        "description": "Z radością witamy duńskie tytanowe oprawy Lindberg w naszym salonie optycznym — lekkie, minimalistyczne i personalizowane dla maksymalnego komfortu."
+      },
+      {
+        "id": "promo-glaucoma-september",
+        "visible": true,
+        "icon": "sparkles",
+        "type": "promotion",
+        "title": "Promocja: badania w kierunku jaskry",
+        "description": "Przez cały wrzesień kompleksowe badanie w kierunku jaskry w specjalnej cenie. Wczesne wykrycie chroni wzrok — umów wizytę już dziś."
+      }
+    ]
+  },
+  "opticalSalonPage": {
+    "meta": {
+      "title": "Salon optyczny — OCULUS",
+      "description": "Odkryj starannie wybraną kolekcję designerskich opraw i precyzyjnych soczewek w eleganckim salonie."
+    },
+    "hero": {
+      "label": "Salon optyczny",
+      "title": "Okulary Premium, Profesjonalnie Dopasowane",
+      "description": "Odkryj starannie wybraną kolekcję designerskich opraw i precyzyjnych soczewek w eleganckim salonie."
+    },
+    "intro": {
+      "eyebrow": "Atelier",
+      "title": "Gdzie precyzja medyczna spotyka się z modą",
+      "paragraph1": "Nasz salon optyczny łączy kliniczną doskonałość z estetyką. Każda oprawa jest dobierana pod kątem jakości, komfortu i stylu.",
+      "paragraph2": "Z receptą od naszej okulistki optycy zapewniają idealne dopasowanie — od wyboru soczewek po regulację oprawy.",
+      "imageAlt": "Kolekcja okularów premium"
+    },
+    "services": {
+      "label": "Usługi optyczne",
+      "title": "Kompleksowe rozwiązania okularowe",
+      "description": "Od okularów korekcyjnych po specjalistyczne soczewki kontaktowe — profesjonalnie dopasowane, pięknie wykonane.",
+      "items": [
+        {
+          "title": "Okulary korekcyjne",
+          "desc": "Precyzyjnie dopasowane oprawy z soczewkami skrojonymi pod Twoją korekcję."
+        },
+        {
+          "title": "Soczewki progresywne",
+          "desc": "Płynne soczewki wieloogniskowe dla ostrego widzenia w każdej odległości."
+        },
+        {
+          "title": "Soczewki biurowe",
+          "desc": "Specjalistyczne soczewki zoptymalizowane do pracy przy ekranie i w biurze."
+        },
+        {
+          "title": "Okulary przeciwsłoneczne",
+          "desc": "Designerskie okulary z ochroną UV, także z opcją korekcji."
+        },
+        {
+          "title": "Okulary sportowe",
+          "desc": "Wytrzymałe, wysokowydajne okulary dla aktywnego stylu życia."
+        },
+        {
+          "title": "Soczewki kontaktowe",
+          "desc": "Profesjonalne dopasowanie i konsultacja — soczewki dzienne, miesięczne i specjalistyczne."
+        },
+        {
+          "title": "Wymiana soczewek i regulacje",
+          "desc": "Naprawy, regulacje i wymiana soczewek w Twoich istniejących oprawach."
+        }
+      ]
+    },
+    "brands": {
+      "label": "Nasze marki",
+      "title": "Wybrane kolekcje",
+      "description": "Światowej klasy marki znane z jakości, designu i trwałego komfortu.",
+      "items": [
+        "Ray-Ban",
+        "Vogue",
+        "Adidas",
+        "Silhouette",
+        "Oakley",
+        "Emporio Armani",
+        "Versace",
+        "Polo Ralph Lauren"
+      ]
+    },
+    "cta": {
+      "title": "Znajdź idealne oprawy",
+      "description": "Odwiedź nasz salon optyczny na spersonalizowaną konsultację okularową.",
+      "button": "Umów konsultację"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "O nas — OCULUS",
+      "description": "Tradycja doskonałości w opiece okulistycznej, oparta na zaufaniu, precyzji i autentycznych relacjach z pacjentami."
+    },
+    "hero": {
+      "label": "O OCULUS",
+      "title": "Dekady oddania Twojemu wzrokowi",
+      "description": "Tradycja doskonałości w opiece okulistycznej, oparta na zaufaniu, precyzji i autentycznych relacjach z pacjentami."
+    },
+    "doctor": {
+      "eyebrow": "Lekarz prowadząca",
+      "name": "Dr Magdalena Turek",
+      "paragraph1": "Z ponad 25-letnim doświadczeniem okulistycznym dr Magdalena Turek poświęca się precyzyjnej diagnostyce i spersonalizowanemu leczeniu każdego pacjenta.",
+      "paragraph2": "Jej podejście skoncentrowane na pacjencie łączy rygor kliniczny z prawdziwą empatią, dzięki czemu każda wizyta jest dokładna, informacyjna i komfortowa.",
+      "note": "[Pełna biografia i kwalifikacje zostaną uzupełnione]",
+      "yearsValue": "25+",
+      "yearsLabel": "Lat praktyki",
+      "imageAlt": "Dr Magdalena Turek"
+    },
+    "mission": {
+      "label": "Nasza misja",
+      "title": "Zapewniać kompleksową i dostępną opiekę nad wzrokiem poprzez dokładną diagnostykę, nowoczesną technologię i życzliwe leczenie."
+    },
+    "values": {
+      "label": "Wartości",
+      "title": "Co kieruje naszą praktyką",
+      "items": [
+        {
+          "label": "Precyzja",
+          "desc": "Skrupulatna dokładność w każdym badaniu i diagnozie."
+        },
+        {
+          "label": "Zaufanie",
+          "desc": "Budowane przez dekady życzliwych relacji z pacjentami."
+        },
+        {
+          "label": "Profesjonalizm",
+          "desc": "Najwyższe standardy w praktyce okulistycznej."
+        },
+        {
+          "label": "Innowacja",
+          "desc": "Wykorzystanie nowoczesnej technologii dla lepszych wyników."
+        },
+        {
+          "label": "Opieka nad pacjentem",
+          "desc": "Każdy pacjent otrzymuje indywidualną, uważną opiekę."
+        }
+      ]
+    },
+    "equipment": {
+      "label": "Nowoczesny sprzęt",
+      "title": "Technologia, której możesz zaufać",
+      "description": "Gabinet wyposażony jest w zaawansowane urządzenia diagnostyczne, umożliwiające precyzyjne badania, dokładny monitoring jaskry oraz szczegółową ocenę narządu wzroku.",
+      "gallery": [
+        { "label": "Recepcja" },
+        { "label": "Gabinet konsultacyjny" },
+        { "label": "Sprzęt diagnostyczny" },
+        { "label": "Salon optyczny" }
+      ]
+    }
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Kontakt — OCULUS",
+      "description": "Jesteśmy tu, by odpowiedzieć na pytania i pomóc umówić wizytę."
+    },
+    "hero": {
+      "label": "Skontaktuj się",
+      "title": "Umów wizytę",
+      "description": "Jesteśmy tu, by odpowiedzieć na pytania i pomóc umówić wizytę."
+    },
+    "details": {
+      "eyebrow": "Dane kontaktowe",
+      "title": "OCULUS Dr Magdalena Turek",
+      "addressLine1": "Moniuszki 10",
+      "addressLine2": "64-000 Kościan, Polska",
+      "landlineLabel": "Telefon stacjonarny",
+      "mobileLabel": "Telefon komórkowy",
+      "emailLabel": "E-mail",
+      "nfzTitle": "Konsultacje NFZ",
+      "privateTitle": "Praktyka prywatna",
+      "nfzHours": [
+        { "day": "Poniedziałek", "hours": "12:00 – 17:00" },
+        { "day": "Wtorek", "hours": "08:00 – 15:00" },
+        { "day": "Środa", "hours": "07:30 – 15:30" },
+        { "day": "Czwartek", "hours": "08:00 – 16:00" },
+        { "day": "Piątek", "hours": "08:00 – 15:00" }
+      ],
+      "privateHours": [
+        { "day": "Poniedziałek", "hours": "17:00 – 21:00" },
+        { "day": "Czwartek", "hours": "16:00 – 21:00" }
+      ]
+    },
+    "map": {
+      "title": "OCULUS",
+      "address": "Moniuszki 10, 64-000 Kościan",
+      "directions": "Wyznacz trasę →",
+      "iframeTitle": "Lokalizacja OCULUS"
+    }
+  },
   "language": {
     "pl": "PL",
     "en": "EN",

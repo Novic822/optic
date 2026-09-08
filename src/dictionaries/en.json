@@ -237,6 +237,216 @@
     "label": "Coming soon",
     "message": "This page is still in progress. Please check back shortly."
   },
+  "highlights": {
+    "sectionLabel": "Latest Updates",
+    "types": {
+      "vacation": "Schedule Update",
+      "new_arrival": "New Arrival",
+      "announcement": "Announcement",
+      "promotion": "Special Offer",
+      "general": "Notice"
+    },
+    "items": [
+      {
+        "id": "vacation-summer-2026",
+        "visible": true,
+        "icon": "calendar",
+        "type": "vacation",
+        "title": "Summer Vacation Closure",
+        "description": "Our clinic will be closed from August 18 to August 31, 2026 for summer holidays. Regular hours resume September 1. For urgent matters, please call +48 602 463 717."
+      },
+      {
+        "id": "new-arrival-lindberg",
+        "visible": true,
+        "icon": "glasses",
+        "type": "new_arrival",
+        "title": "New Eyewear Brand: Lindberg",
+        "description": "We're excited to welcome Lindberg Danish titanium frames to our optical salon — lightweight, minimalist, and customizable for ultimate comfort."
+      },
+      {
+        "id": "promo-glaucoma-september",
+        "visible": false,
+        "icon": "sparkles",
+        "type": "promotion",
+        "title": "Glaucoma Screening Promotion",
+        "description": "Throughout September, book a comprehensive glaucoma screening at a special rate. Early detection saves vision — schedule your appointment today."
+      }
+    ]
+  },
+  "opticalSalonPage": {
+    "meta": {
+      "title": "Optical Salon — OCULUS",
+      "description": "Discover our curated collection of designer frames and precision lenses in an elegant salon setting."
+    },
+    "hero": {
+      "label": "Optical Salon",
+      "title": "Premium Eyewear, Expertly Fitted",
+      "description": "Discover our curated collection of designer frames and precision lenses in an elegant salon setting."
+    },
+    "intro": {
+      "eyebrow": "The Atelier",
+      "title": "Where Medical Precision Meets Fashion",
+      "paragraph1": "Our optical salon bridges the gap between clinical excellence and aesthetic refinement. Every frame is selected for quality, comfort, and style.",
+      "paragraph2": "With your prescription from our ophthalmologist, our opticians ensure the perfect fit — from lens selection to frame adjustment.",
+      "imageAlt": "Premium eyewear collection"
+    },
+    "services": {
+      "label": "Optical Services",
+      "title": "Complete Eyewear Solutions",
+      "description": "From prescription glasses to specialty contact lenses — expertly fitted, beautifully crafted.",
+      "items": [
+        {
+          "title": "Prescription Glasses",
+          "desc": "Custom-fitted frames with precision lenses tailored to your exact prescription."
+        },
+        {
+          "title": "Progressive Lenses",
+          "desc": "Seamless multifocal lenses for clear vision at every distance."
+        },
+        {
+          "title": "Office Lenses",
+          "desc": "Specialized lenses optimized for screen work and office environments."
+        },
+        {
+          "title": "Sunglasses",
+          "desc": "UV-protective designer sunglasses with optional prescription lenses."
+        },
+        {
+          "title": "Sports Eyewear",
+          "desc": "Durable, high-performance eyewear for active lifestyles."
+        },
+        {
+          "title": "Contact Lenses",
+          "desc": "Professional fitting and consultation for daily, monthly, and specialty lenses."
+        },
+        {
+          "title": "Lens Replacement & Adjustments",
+          "desc": "Expert repairs, adjustments, and lens upgrades for your existing frames."
+        }
+      ]
+    },
+    "brands": {
+      "label": "Our Brands",
+      "title": "Curated Collections",
+      "description": "World-renowned brands known for quality, design, and lasting comfort.",
+      "items": [
+        "Ray-Ban",
+        "Vogue",
+        "Adidas",
+        "Silhouette",
+        "Oakley",
+        "Emporio Armani",
+        "Versace",
+        "Polo Ralph Lauren"
+      ]
+    },
+    "cta": {
+      "title": "Find Your Perfect Frames",
+      "description": "Visit our optical salon for a personalized eyewear consultation.",
+      "button": "Book a Consultation"
+    }
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "About — OCULUS",
+      "description": "A tradition of excellence in ophthalmological care, built on trust, precision, and genuine patient relationships."
+    },
+    "hero": {
+      "label": "About OCULUS",
+      "title": "Decades of Dedication to Your Vision",
+      "description": "A tradition of excellence in ophthalmological care, built on trust, precision, and genuine patient relationships."
+    },
+    "doctor": {
+      "eyebrow": "Lead Physician",
+      "name": "Dr. Magdalena Turek",
+      "paragraph1": "With over 25 years of ophthalmological experience, Dr. Magdalena Turek is dedicated to providing precise diagnostics and personalized treatment for every patient.",
+      "paragraph2": "Her patient-centered approach combines clinical rigor with genuine compassion, ensuring that each visit is thorough, informative, and comfortable.",
+      "note": "[Full biography and credentials to be added]",
+      "yearsValue": "25+",
+      "yearsLabel": "Years of Practice",
+      "imageAlt": "Dr. Magdalena Turek"
+    },
+    "mission": {
+      "label": "Our Mission",
+      "title": "To provide comprehensive and accessible eye care through accurate diagnosis, modern technology, and compassionate treatment."
+    },
+    "values": {
+      "label": "Core Values",
+      "title": "What Guides Our Practice",
+      "items": [
+        {
+          "label": "Precision",
+          "desc": "Meticulous accuracy in every examination and diagnosis."
+        },
+        {
+          "label": "Trust",
+          "desc": "Built through decades of compassionate patient relationships."
+        },
+        {
+          "label": "Professionalism",
+          "desc": "The highest standards in ophthalmological practice."
+        },
+        {
+          "label": "Innovation",
+          "desc": "Embracing modern technology for better outcomes."
+        },
+        {
+          "label": "Patient Care",
+          "desc": "Every patient receives individualized, attentive care."
+        }
+      ]
+    },
+    "equipment": {
+      "label": "Modern Equipment",
+      "title": "Technology You Can Trust",
+      "description": "Our clinic is equipped with advanced diagnostic instruments, enabling precise examinations, accurate glaucoma monitoring, and detailed ocular assessments.",
+      "gallery": [
+        { "label": "Reception" },
+        { "label": "Consultation Room" },
+        { "label": "Diagnostic Equipment" },
+        { "label": "Optical Showroom" }
+      ]
+    }
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Contact — OCULUS",
+      "description": "We're here to answer your questions and help you book your appointment."
+    },
+    "hero": {
+      "label": "Get in Touch",
+      "title": "Schedule Your Visit",
+      "description": "We're here to answer your questions and help you book your appointment."
+    },
+    "details": {
+      "eyebrow": "Contact Details",
+      "title": "OCULUS Dr. Magdalena Turek",
+      "addressLine1": "Moniuszki 10",
+      "addressLine2": "64-000 Kościan, Poland",
+      "landlineLabel": "Landline",
+      "mobileLabel": "Mobile",
+      "emailLabel": "Email",
+      "nfzTitle": "NFZ Consultations",
+      "privateTitle": "Private Practice",
+      "nfzHours": [
+        { "day": "Monday", "hours": "12:00 – 17:00" },
+        { "day": "Tuesday", "hours": "08:00 – 15:00" },
+        { "day": "Wednesday", "hours": "07:30 – 15:30" },
+        { "day": "Thursday", "hours": "08:00 – 16:00" },
+        { "day": "Friday", "hours": "08:00 – 15:00" }
+      ],
+      "privateHours": [
+        { "day": "Monday", "hours": "17:00 – 21:00" },
+        { "day": "Thursday", "hours": "16:00 – 21:00" }
+      ]
+    },
+    "map": {
+      "title": "OCULUS",
+      "address": "Moniuszki 10, 64-000 Kościan",
+      "directions": "Get Directions →",
+      "iframeTitle": "OCULUS Location"
+    }
+  },
   "language": {
     "pl": "PL",
     "en": "EN",

@@ -53,7 +53,13 @@ export default function Navbar({ lang, copy, languageLabel }: NavbarProps) {
     pathname === homeHref ||
     pathname === `${homeHref}/` ||
     pathname === `/${lang}/services` ||
-    pathname.startsWith(`/${lang}/services/`);
+    pathname.startsWith(`/${lang}/services/`) ||
+    pathname === `/${lang}/optical-salon` ||
+    pathname.startsWith(`/${lang}/optical-salon/`) ||
+    pathname === `/${lang}/about` ||
+    pathname.startsWith(`/${lang}/about/`) ||
+    pathname === `/${lang}/contact` ||
+    pathname.startsWith(`/${lang}/contact/`);
   const onDark = !scrolled && !mobileOpen && hasDarkHero;
 
   function hrefFor(path: string) {
