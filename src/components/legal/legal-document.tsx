@@ -1,3 +1,6 @@
+import Breadcrumbs, { type Crumb } from "@/components/seo/breadcrumbs";
+import type { Locale } from "@/i18n/config";
+
 type LegalSection = {
   heading: string;
   paragraphs: string[];
@@ -8,6 +11,8 @@ type LegalDocumentProps = {
   updated: string;
   intro: string[];
   sections: LegalSection[];
+  lang?: Locale;
+  breadcrumbs?: Crumb[];
 };
 
 export default function LegalDocument({
@@ -15,10 +20,15 @@ export default function LegalDocument({
   updated,
   intro,
   sections,
+  lang,
+  breadcrumbs,
 }: LegalDocumentProps) {
   return (
     <article className="bg-silver pt-32 pb-24 lg:pb-32">
       <div className="max-w-3xl mx-auto px-6 lg:px-8">
+        {lang && breadcrumbs?.length ? (
+          <Breadcrumbs lang={lang} items={breadcrumbs} variant="dark" className="mb-8" />
+        ) : null}
         <span className="text-xs tracking-[0.25em] uppercase text-gold font-body font-medium">
           {updated}
         </span>

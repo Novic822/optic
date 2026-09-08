@@ -1,7 +1,20 @@
 {
   "meta": {
-    "title": "Optic — Ophthalmology & Optical Clinic",
-    "description": "Professional ophthalmology consultations, glaucoma diagnostics, vision examinations, and premium optical services in Kościan."
+    "title": "Ophthalmologist Kościan | OCULUS Dr Magdalena Turek",
+    "titleTemplate": "%s | OCULUS Kościan",
+    "description": "Ophthalmology clinic and optical salon in Kościan. Eye exams, glaucoma diagnostics, and prescription glasses. Dr Magdalena Turek — NFZ and private visits, Moniuszki 10.",
+    "keywords": [
+      "ophthalmologist Kościan",
+      "eye clinic Kościan",
+      "optical salon Kościan",
+      "glaucoma diagnostics",
+      "eye examination Kościan",
+      "Dr Magdalena Turek",
+      "optician Kościan",
+      "prescription glasses Kościan"
+    ],
+    "siteName": "OCULUS",
+    "ogAlt": "OCULUS ophthalmology clinic and optical salon in Kościan"
   },
   "nav": {
     "home": "Home",
@@ -177,8 +190,14 @@
   },
   "servicesPage": {
     "meta": {
-      "title": "Medical Services — OCULUS",
-      "description": "Comprehensive eye health services backed by 25+ years of medical expertise and modern diagnostic technology."
+      "title": "Eye exams and glaucoma diagnostics",
+      "description": "Ophthalmology services in Kościan: comprehensive eye exams, glaucoma diagnostics, preventive care, and eye disease consultations with Dr Magdalena Turek.",
+      "keywords": [
+        "eye examination Kościan",
+        "glaucoma diagnostics Kościan",
+        "ophthalmologist NFZ",
+        "eye disease consultation"
+      ]
     },
     "hero": {
       "label": "Medical Services",
@@ -280,8 +299,15 @@
   },
   "opticalSalonPage": {
     "meta": {
-      "title": "Optical Salon — OCULUS",
-      "description": "Discover our curated collection of designer frames and precision lenses in an elegant salon setting."
+      "title": "Optical salon — glasses and lenses",
+      "description": "Optical salon in Kościan: prescription glasses, progressive and office lenses, sunglasses, sports eyewear, and contact lens fitting. Ray-Ban, Oakley, Silhouette and more.",
+      "keywords": [
+        "optical salon Kościan",
+        "prescription glasses Kościan",
+        "contact lenses Kościan",
+        "progressive lenses",
+        "Ray-Ban Kościan"
+      ]
     },
     "hero": {
       "label": "Optical Salon",
@@ -353,8 +379,14 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "About — OCULUS",
-      "description": "A tradition of excellence in ophthalmological care, built on trust, precision, and genuine patient relationships."
+      "title": "About the clinic — Dr Magdalena Turek",
+      "description": "Meet OCULUS in Kościan: over 25 years of ophthalmological care by Dr Magdalena Turek, modern diagnostics, and a professional optical salon at Moniuszki 10.",
+      "keywords": [
+        "Dr Magdalena Turek",
+        "ophthalmologist Kościan",
+        "OCULUS Kościan",
+        "eye clinic about"
+      ]
     },
     "hero": {
       "label": "About OCULUS",
@@ -415,8 +447,14 @@
   },
   "contactPage": {
     "meta": {
-      "title": "Contact — OCULUS",
-      "description": "We're here to answer your questions and help you book your appointment."
+      "title": "Contact and opening hours",
+      "description": "Book an appointment at OCULUS in Kościan: +48 65 511 40 27. Moniuszki 10. NFZ and private hours, Google Maps directions, and answers to frequent questions.",
+      "keywords": [
+        "OCULUS Kościan contact",
+        "ophthalmologist Kościan phone",
+        "Moniuszki 10 Kościan",
+        "eye clinic opening hours"
+      ]
     },
     "hero": {
       "label": "Get in Touch",
@@ -450,6 +488,28 @@
       "address": "Moniuszki 10, 64-000 Kościan",
       "directions": "Get Directions →",
       "iframeTitle": "OCULUS Location"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "How do I book an appointment?",
+          "answer": "Call +48 65 511 40 27 or +48 602 463 717. We do not take online bookings on this website. Please mention whether you need an NFZ or private visit."
+        },
+        {
+          "question": "Do you accept NFZ patients?",
+          "answer": "Yes. NFZ consultations are available on weekdays, with hours that vary by day. Private appointments are offered on Monday evenings and Thursday afternoons."
+        },
+        {
+          "question": "Where is the clinic?",
+          "answer": "OCULUS is at Stanisława Moniuszki 10, 64-000 Kościan, Poland — ophthalmology consultations and an optical salon in one location."
+        },
+        {
+          "question": "What services do you offer?",
+          "answer": "Eye examinations, glaucoma diagnostics, eye disease consultations, prescription glasses, contact lens fitting, and premium eyewear brands in the optical salon."
+        }
+      ]
     }
   },
   "cookieNotice": {
@@ -459,8 +519,8 @@
   },
   "privacyPage": {
     "meta": {
-      "title": "Privacy Policy — OCULUS",
-      "description": "How OCULUS processes information when you visit our informational website."
+      "title": "Privacy Policy",
+      "description": "How OCULUS in Kościan processes information on this informational clinic website, including hosting, maps, and your rights under GDPR/RODO."
     },
     "title": "Privacy Policy",
     "updated": "Last updated: September 2026",
@@ -494,7 +554,7 @@
       {
         "heading": "Third-party services used to display the site",
         "paragraphs": [
-          "Fonts: we load fonts from Google Fonts so text displays correctly. Google may receive technical connection data when fonts are requested.",
+          "Fonts: we load fonts from Google Fonts so Polish and English text displays correctly, including Latin-extended characters. Google may receive technical connection data when fonts are requested.",
           "Maps: the Contact page embeds Google Maps so you can see our location. Using the map may involve Google processing technical data under Google’s privacy policy.",
           "These services support displaying the website. They are not used by us for advertising or audience profiling on this site."
         ]
@@ -524,8 +584,8 @@
   },
   "cookiesPage": {
     "meta": {
-      "title": "Cookies — OCULUS",
-      "description": "Information about cookies and local storage on the OCULUS website."
+      "title": "Cookie information",
+      "description": "How cookies and local storage are used on the OCULUS Kościan website. No advertising or analytics cookies."
     },
     "title": "Cookie information",
     "updated": "Last updated: September 2026",

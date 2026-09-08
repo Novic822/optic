@@ -42,6 +42,9 @@ export default function LanguageSwitcher({
           key={locale}
           href={switchPath(locale)}
           hrefLang={locale}
+          lang={locale}
+          rel="alternate"
+          aria-current={locale === lang ? "true" : undefined}
           className={cn(
             "rounded-full px-2.5 py-1 text-xs font-medium tracking-wider uppercase transition-colors",
             locale === lang

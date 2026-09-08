@@ -122,6 +122,7 @@ export default function Navbar({ lang, copy, languageLabel }: NavbarProps) {
                   <Link
                     key={link.path}
                     href={hrefFor(link.path)}
+                    aria-current={active ? "page" : undefined}
                     className={cn(
                       "text-sm tracking-wide transition-colors relative group",
                       active
@@ -213,6 +214,7 @@ export default function Navbar({ lang, copy, languageLabel }: NavbarProps) {
                 >
                   <Link
                     href={hrefFor(link.path)}
+                    aria-current={isActive(link.path) ? "page" : undefined}
                     className={cn(
                       "font-display text-2xl",
                       isActive(link.path) ? "text-navy" : "text-navy/50"

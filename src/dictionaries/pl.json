@@ -1,7 +1,21 @@
 {
   "meta": {
-    "title": "Optic — Gabinet Okulistyczny i Optyczny",
-    "description": "Profesjonalne konsultacje okulistyczne, diagnostyka jaskry, badania wzroku oraz usługi optyczne premium w Kościanie."
+    "title": "Okulista Kościan | OCULUS Dr Magdalena Turek",
+    "titleTemplate": "%s | OCULUS Kościan",
+    "description": "Gabinet okulistyczny i salon optyczny w Kościanie. Badania wzroku, diagnostyka jaskry i okulary korekcyjne. Dr Magdalena Turek — NFZ i wizyty prywatne, ul. Moniuszki 10.",
+    "keywords": [
+      "okulista Kościan",
+      "gabinet okulistyczny Kościan",
+      "optyk Kościan",
+      "salon optyczny Kościan",
+      "badanie wzroku Kościan",
+      "diagnostyka jaskry",
+      "okulary korekcyjne Kościan",
+      "dr Magdalena Turek",
+      "okulista NFZ Kościan"
+    ],
+    "siteName": "OCULUS",
+    "ogAlt": "Gabinet okulistyczny i salon optyczny OCULUS w Kościanie"
   },
   "nav": {
     "home": "Strona główna",
@@ -177,8 +191,14 @@
   },
   "servicesPage": {
     "meta": {
-      "title": "Usługi medyczne — OCULUS",
-      "description": "Kompleksowa opieka nad wzrokiem oparta na ponad 25 latach doświadczenia medycznego i nowoczesnej diagnostyce."
+      "title": "Okulista — badania wzroku i jaskra",
+      "description": "Usługi okulistyczne w Kościanie: kompleksowe badania wzroku, diagnostyka jaskry, profilaktyka i konsultacje chorób oczu. Dr Magdalena Turek — NFZ i wizyty prywatne.",
+      "keywords": [
+        "badanie wzroku Kościan",
+        "diagnostyka jaskry Kościan",
+        "okulista NFZ Kościan",
+        "konsultacje chorób oczu"
+      ]
     },
     "hero": {
       "label": "Usługi medyczne",
@@ -280,8 +300,15 @@
   },
   "opticalSalonPage": {
     "meta": {
-      "title": "Salon optyczny — OCULUS",
-      "description": "Odkryj starannie wybraną kolekcję designerskich opraw i precyzyjnych soczewek w eleganckim salonie."
+      "title": "Salon optyczny — okulary i soczewki",
+      "description": "Salon optyczny w Kościanie: okulary korekcyjne, soczewki progresywne i biurowe, okulary przeciwsłoneczne, sportowe oraz dopasowanie soczewek kontaktowych.",
+      "keywords": [
+        "salon optyczny Kościan",
+        "okulary korekcyjne Kościan",
+        "soczewki kontaktowe Kościan",
+        "soczewki progresywne",
+        "Ray-Ban Kościan"
+      ]
     },
     "hero": {
       "label": "Salon optyczny",
@@ -353,8 +380,14 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "O nas — OCULUS",
-      "description": "Tradycja doskonałości w opiece okulistycznej, oparta na zaufaniu, precyzji i autentycznych relacjach z pacjentami."
+      "title": "O gabinecie — dr Magdalena Turek",
+      "description": "Poznaj OCULUS w Kościanie: ponad 25 lat opieki okulistycznej dr Magdaleny Turek, nowoczesna diagnostyka i profesjonalny salon optyczny przy ul. Moniuszki 10.",
+      "keywords": [
+        "dr Magdalena Turek",
+        "okulista Kościan",
+        "OCULUS Kościan",
+        "gabinet okulistyczny"
+      ]
     },
     "hero": {
       "label": "O OCULUS",
@@ -415,8 +448,14 @@
   },
   "contactPage": {
     "meta": {
-      "title": "Kontakt — OCULUS",
-      "description": "Jesteśmy tu, by odpowiedzieć na pytania i pomóc umówić wizytę."
+      "title": "Kontakt i godziny otwarcia",
+      "description": "Umów wizytę w OCULUS w Kościanie: +48 65 511 40 27. Ul. Moniuszki 10. Godziny NFZ i prywatne, dojazd Google Maps oraz odpowiedzi na częste pytania.",
+      "keywords": [
+        "OCULUS Kościan kontakt",
+        "okulista Kościan telefon",
+        "Moniuszki 10 Kościan",
+        "godziny otwarcia okulista"
+      ]
     },
     "hero": {
       "label": "Skontaktuj się",
@@ -450,6 +489,28 @@
       "address": "Moniuszki 10, 64-000 Kościan",
       "directions": "Wyznacz trasę →",
       "iframeTitle": "Lokalizacja OCULUS"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Najczęstsze pytania",
+      "items": [
+        {
+          "question": "Jak umówić wizytę?",
+          "answer": "Prosimy dzwonić pod +48 65 511 40 27 lub +48 602 463 717. Na stronie nie prowadzimy rezerwacji online. Prosimy podać, czy potrzebna jest wizyta NFZ, czy prywatna."
+        },
+        {
+          "question": "Czy przyjmujecie na NFZ?",
+          "answer": "Tak. Konsultacje NFZ odbywają się od poniedziałku do piątku, w godzinach zależnych od dnia. Wizyty prywatne są w poniedziałki wieczorem i w czwartki po południu."
+        },
+        {
+          "question": "Gdzie znajduje się gabinet?",
+          "answer": "OCULUS mieści się przy ul. Stanisława Moniuszki 10, 64-000 Kościan — konsultacje okulistyczne i salon optyczny w jednym miejscu."
+        },
+        {
+          "question": "Jakie usługi oferujecie?",
+          "answer": "Badania wzroku, diagnostykę jaskry, konsultacje chorób oczu, okulary korekcyjne, dopasowanie soczewek kontaktowych oraz markowe oprawy w salonie optycznym."
+        }
+      ]
     }
   },
   "cookieNotice": {
@@ -459,8 +520,8 @@
   },
   "privacyPage": {
     "meta": {
-      "title": "Polityka prywatności — OCULUS",
-      "description": "Jak OCULUS przetwarza informacje w związku z informacyjną stroną internetową gabinetu."
+      "title": "Polityka prywatności",
+      "description": "Jak OCULUS w Kościanie przetwarza informacje na informacyjnej stronie gabinetu — hosting, mapa oraz Twoje prawa wynikające z RODO."
     },
     "title": "Polityka prywatności",
     "updated": "Ostatnia aktualizacja: wrzesień 2026",
@@ -494,7 +555,7 @@
       {
         "heading": "Usługi zewnętrzne potrzebne do wyświetlenia strony",
         "paragraphs": [
-          "Czcionki: ładujemy fonty z Google Fonts, aby tekst wyświetlał się poprawnie. Google może otrzymać techniczne dane połączenia przy pobieraniu fontów.",
+          "Czcionki: ładujemy fonty z Google Fonts, aby poprawnie wyświetlać tekst polski i angielski, w tym znaki z zestawu Latin Extended. Google może otrzymać techniczne dane połączenia przy pobieraniu fontów.",
           "Mapa: na stronie Kontaktu osadzona jest mapa Google Maps. Korzystanie z mapy może wiązać się z przetwarzaniem danych technicznych przez Google zgodnie z jego polityką prywatności.",
           "Usługi te służą wyłącznie wyświetlaniu witryny. Nie wykorzystujemy ich do reklam ani profilowania odbiorców na tej stronie."
         ]
@@ -524,8 +585,8 @@
   },
   "cookiesPage": {
     "meta": {
-      "title": "Cookies — OCULUS",
-      "description": "Informacja o cookies i pamięci lokalnej na stronie OCULUS."
+      "title": "Informacja o cookies",
+      "description": "Jak cookies i pamięć lokalna są używane na stronie OCULUS w Kościanie. Bez cookies reklamowych i analitycznych."
     },
     "title": "Informacja o cookies",
     "updated": "Ostatnia aktualizacja: wrzesień 2026",

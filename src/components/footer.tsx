@@ -42,9 +42,9 @@ export default function Footer({ lang, copy }: FooterProps) {
           </div>
 
           <div>
-            <h4 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
+            <h2 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
               {copy.quickLinksTitle}
-            </h4>
+            </h2>
             <div className="flex flex-col gap-3">
               {quickLinks.map((link) => (
                 <Link
@@ -59,10 +59,10 @@ export default function Footer({ lang, copy }: FooterProps) {
           </div>
 
           <div>
-            <h4 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
+            <h2 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
               {copy.contactTitle}
-            </h4>
-            <div className="flex flex-col gap-4">
+            </h2>
+            <address className="flex flex-col gap-4 not-italic">
               <a
                 href="tel:+48655114027"
                 className="flex items-center gap-3 text-white/50 hover:text-gold transition-colors text-sm"
@@ -92,13 +92,13 @@ export default function Footer({ lang, copy }: FooterProps) {
                   {copy.addressLine2}
                 </span>
               </div>
-            </div>
+            </address>
           </div>
 
           <div>
-            <h4 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
+            <h2 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
               {copy.hoursTitle}
-            </h4>
+            </h2>
             <div className="flex flex-col gap-3 text-sm text-white/50">
               <div className="flex items-start gap-3">
                 <Clock className="w-4 h-4 text-gold/70 shrink-0 mt-0.5" />

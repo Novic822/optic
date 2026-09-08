@@ -2,12 +2,16 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Breadcrumbs, { type Crumb } from "@/components/seo/breadcrumbs";
+import type { Locale } from "@/i18n/config";
 
 type PageHeroProps = {
   label: string;
   title: string;
   description?: string;
   image: string;
+  lang?: Locale;
+  breadcrumbs?: Crumb[];
 };
 
 export default function PageHero({
@@ -15,6 +19,8 @@ export default function PageHero({
   title,
   description,
   image,
+  lang,
+  breadcrumbs,
 }: PageHeroProps) {
   return (
     <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
@@ -36,6 +42,9 @@ export default function PageHero({
           transition={{ duration: 0.8 }}
           className="max-w-2xl"
         >
+          {lang && breadcrumbs?.length ? (
+            <Breadcrumbs lang={lang} items={breadcrumbs} className="mb-6" />
+          ) : null}
           <span className="inline-flex items-center gap-2 text-gold text-xs tracking-[0.25em] uppercase font-body font-medium mb-4">
             <span className="w-8 h-px bg-gold" />
             {label}

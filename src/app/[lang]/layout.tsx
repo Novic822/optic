@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import CookieNotice from "@/components/legal/cookie-notice";
@@ -13,14 +14,28 @@ export async function generateMetadata({
   params,
 }: {
   params: Promise<{ lang: string }>;
-}) {
+}): Promise<Metadata> {
   const { lang } = await params;
   if (!isLocale(lang)) return {};
 
   const dict = await getDictionary(lang);
+
   return {
-    title: dict.meta.title,
+    title: {
+      default: dict.meta.title,
+      template: dict.meta.titleTemplate,
+    },
     description: dict.meta.description,
+    keywords: dict.meta.keywords,
+    openGraph: {
+      type: "website",
+      siteName: dict.meta.siteName,
+      locale: lang === "pl" ? "pl_PL" : "en_US",
+      alternateLocale: [lang === "pl" ? "en_US" : "pl_PL"],
+    },
+    twitter: {
+      card: "summary_large_image",
+    },
   };
 }
 
@@ -39,7 +54,7 @@ export default async function LangLayout({
   const dict = await getDictionary(lang);
 
   return (
-    <html lang={lang} className="h-full antialiased">
+    <html lang={lang} dir="ltr" className="h-full antialiased">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
