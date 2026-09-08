@@ -22,7 +22,6 @@ export default function Footer({ lang, copy }: FooterProps) {
     <footer className="bg-navy text-white mt-auto">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16 lg:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
-          {/* Brand */}
           <div className="lg:col-span-1">
             <Link href={`/${lang}`} className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-full border-2 border-gold flex items-center justify-center">
@@ -42,7 +41,6 @@ export default function Footer({ lang, copy }: FooterProps) {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
               {copy.quickLinksTitle}
@@ -60,7 +58,6 @@ export default function Footer({ lang, copy }: FooterProps) {
             </div>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
               {copy.contactTitle}
@@ -98,7 +95,6 @@ export default function Footer({ lang, copy }: FooterProps) {
             </div>
           </div>
 
-          {/* Hours */}
           <div>
             <h4 className="text-xs tracking-[0.2em] uppercase text-gold mb-6 font-body font-medium">
               {copy.hoursTitle}
@@ -125,20 +121,37 @@ export default function Footer({ lang, copy }: FooterProps) {
           </div>
         </div>
 
-        {/* Bottom */}
-        <div className="gold-rule mt-12 mb-8 opacity-30" />
+        <p className="mt-12 text-white/35 text-xs leading-relaxed max-w-3xl">
+          {copy.disclaimer}
+        </p>
+
+        <div className="gold-rule mt-8 mb-8 opacity-30" />
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/30 text-xs">
             © {year} {copy.copyright}
           </p>
-          <a
-            href="https://www.google.com/maps/place/OCULUS+dr+Magdalena+Turek/@52.0889736,16.6450183,42m/data=!3m1!1e3!4m15!1m8!3m7!1s0x4705b107f8e91007:0x8047417800748a5e!2sStanis%C5%82awa+Moniuszki+10,+64-000+Ko%C5%9Bcian,+Poland!3b1!8m2!3d52.0889979!4d16.6451884!16s%2Fg%2F11b8y5lgdm!3m5!1s0x4705b107f851e7a9:0xcde61effdea9a636!8m2!3d52.0889849!4d16.6451353!16s%2Fg%2F1thg94h0?entry=ttu&g_ep=EgoyMDI2MDcyNi4wIKXMDSoASAFQAw%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white/30 hover:text-gold text-xs transition-colors"
-          >
-            {copy.maps}
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+            <Link
+              href={`/${lang}/privacy`}
+              className="text-white/30 hover:text-gold text-xs transition-colors"
+            >
+              {copy.legal.privacy}
+            </Link>
+            <Link
+              href={`/${lang}/cookies`}
+              className="text-white/30 hover:text-gold text-xs transition-colors"
+            >
+              {copy.legal.cookies}
+            </Link>
+            <a
+              href="https://www.google.com/maps/place/OCULUS+dr+Magdalena+Turek/@52.0889849,16.6451353,17z"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/30 hover:text-gold text-xs transition-colors"
+            >
+              {copy.maps}
+            </a>
+          </div>
         </div>
       </div>
     </footer>

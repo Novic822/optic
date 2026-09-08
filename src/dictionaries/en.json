@@ -156,7 +156,12 @@
     "privateMon": "Mon: 17:00–21:00",
     "privateThu": "Thu: 16:00–21:00",
     "copyright": "OCULUS Dr. Magdalena Turek. All rights reserved.",
-    "maps": "View on Google Maps →"
+    "maps": "View on Google Maps →",
+    "disclaimer": "Information on this website is general and does not replace a professional ophthalmological consultation or emergency medical care. In an emergency, contact emergency services (112) or the nearest hospital.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "cookies": "Cookies"
+    }
   },
   "patientJourney": {
     "label": "Your Journey",
@@ -446,6 +451,111 @@
       "directions": "Get Directions →",
       "iframeTitle": "OCULUS Location"
     }
+  },
+  "cookieNotice": {
+    "message": "This website does not use advertising or analytics cookies. We only use what is needed to run the site. Your preference is stored in your browser.",
+    "accept": "Understood",
+    "learnMore": "Cookie information"
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Privacy Policy — OCULUS",
+      "description": "How OCULUS processes information when you visit our informational website."
+    },
+    "title": "Privacy Policy",
+    "updated": "Last updated: September 2026",
+    "intro": [
+      "This privacy policy explains how the OCULUS ophthalmology and optical clinic (“we”, “us”) handles information in connection with this website. The site is informational only: it presents the clinic, services, and contact details. We do not run advertising, marketing trackers, or analytics tools that profile visitors.",
+      "This text is a practical template for an informational clinic website. For formal compliance under Polish and EU law (RODO/GDPR), please have it reviewed by a qualified advisor."
+    ],
+    "sections": [
+      {
+        "heading": "Data controller",
+        "paragraphs": [
+          "Controller: OCULUS — Dr. Magdalena Turek, Stanisława Moniuszki 10, 64-000 Kościan, Poland.",
+          "Contact: +48 65 511 40 27, +48 602 463 717, oculus2@wp.pl."
+        ]
+      },
+      {
+        "heading": "What this website does (and does not do)",
+        "paragraphs": [
+          "We do not require accounts, newsletters, or online booking forms on this website.",
+          "We do not use advertising cookies, marketing pixels, or visitor analytics (such as Google Analytics).",
+          "If you contact us by phone or email, you choose to share that information with us outside this website. We use it only to respond to your enquiry and provide care-related communication."
+        ]
+      },
+      {
+        "heading": "Technical data and hosting",
+        "paragraphs": [
+          "Like most websites, our hosting provider may process technical data needed to deliver pages (for example IP address, browser type, and request time) in server logs, for security and operation of the service.",
+          "This website may be hosted by a professional hosting/cloud provider (for example Vercel). That provider acts as a processor for hosting-related technical data under its own terms and appropriate safeguards."
+        ]
+      },
+      {
+        "heading": "Third-party services used to display the site",
+        "paragraphs": [
+          "Fonts: we load fonts from Google Fonts so text displays correctly. Google may receive technical connection data when fonts are requested.",
+          "Maps: the Contact page embeds Google Maps so you can see our location. Using the map may involve Google processing technical data under Google’s privacy policy.",
+          "These services support displaying the website. They are not used by us for advertising or audience profiling on this site."
+        ]
+      },
+      {
+        "heading": "Cookies and similar storage",
+        "paragraphs": [
+          "We do not set advertising or analytics cookies.",
+          "Your browser may store a simple local preference when you dismiss the cookie information notice (so we do not show it again). Details are described on the Cookies page.",
+          "The hosting platform may use strictly necessary technical cookies or similar technologies required for security and delivery of the site."
+        ]
+      },
+      {
+        "heading": "Your rights",
+        "paragraphs": [
+          "Under GDPR/RODO you may have rights to access, rectify, erase, restrict, or object to certain processing, and to lodge a complaint with the Polish supervisory authority (UODO).",
+          "To exercise your rights regarding data we hold (for example from an email you sent us), contact us using the details above."
+        ]
+      },
+      {
+        "heading": "Changes",
+        "paragraphs": [
+          "We may update this policy when our website or practices change. The “Last updated” date at the top will be revised accordingly."
+        ]
+      }
+    ]
+  },
+  "cookiesPage": {
+    "meta": {
+      "title": "Cookies — OCULUS",
+      "description": "Information about cookies and local storage on the OCULUS website."
+    },
+    "title": "Cookie information",
+    "updated": "Last updated: September 2026",
+    "intro": [
+      "This page explains how cookies and similar technologies relate to the OCULUS website. We do not use cookies for advertising, marketing, or analytics profiling."
+    ],
+    "sections": [
+      {
+        "heading": "What we use",
+        "paragraphs": [
+          "Necessary / technical: technologies that may be required by the hosting platform to deliver the site securely and reliably.",
+          "Preference (local storage): when you acknowledge the cookie notice, we save a small flag in your browser (localStorage) so the notice is not shown again. This is not used to track you across sites.",
+          "We do not use advertising cookies or analytics cookies."
+        ]
+      },
+      {
+        "heading": "Third parties",
+        "paragraphs": [
+          "Google Fonts and the embedded Google Map may set or read cookies or similar data according to Google’s own policies when those resources load. We use them only to display fonts and the clinic location.",
+          "You can control cookies in your browser settings, including blocking third-party cookies. Blocking some technologies may affect fonts or the map."
+        ]
+      },
+      {
+        "heading": "More information",
+        "paragraphs": [
+          "See also our Privacy Policy for how we handle information in general.",
+          "Contact: oculus2@wp.pl or +48 65 511 40 27."
+        ]
+      }
+    ]
   },
   "language": {
     "pl": "PL",

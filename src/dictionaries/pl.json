@@ -156,7 +156,12 @@
     "privateMon": "Pn: 17:00–21:00",
     "privateThu": "Czw: 16:00–21:00",
     "copyright": "OCULUS Dr Magdalena Turek. Wszelkie prawa zastrzeżone.",
-    "maps": "Zobacz w Google Maps →"
+    "maps": "Zobacz w Google Maps →",
+    "disclaimer": "Informacje na tej stronie mają charakter ogólny i nie zastępują profesjonalnej konsultacji okulistycznej ani pomocy w nagłych wypadkach. W sytuacji zagrożenia życia lub zdrowia dzwoń pod 112 lub zgłoś się do najbliższego szpitala.",
+    "legal": {
+      "privacy": "Polityka prywatności",
+      "cookies": "Cookies"
+    }
   },
   "patientJourney": {
     "label": "Twoja ścieżka",
@@ -446,6 +451,111 @@
       "directions": "Wyznacz trasę →",
       "iframeTitle": "Lokalizacja OCULUS"
     }
+  },
+  "cookieNotice": {
+    "message": "Ta strona nie używa plików cookies reklamowych ani analitycznych. Korzystamy tylko z tego, co jest potrzebne do działania witryny. Twoja decyzja jest zapisywana w przeglądarce.",
+    "accept": "Rozumiem",
+    "learnMore": "Informacja o cookies"
+  },
+  "privacyPage": {
+    "meta": {
+      "title": "Polityka prywatności — OCULUS",
+      "description": "Jak OCULUS przetwarza informacje w związku z informacyjną stroną internetową gabinetu."
+    },
+    "title": "Polityka prywatności",
+    "updated": "Ostatnia aktualizacja: wrzesień 2026",
+    "intro": [
+      "Niniejsza polityka prywatności wyjaśnia, w jaki sposób gabinet okulistyczny i optyczny OCULUS („my”) przetwarza informacje w związku z tą stroną internetową. Strona ma charakter wyłącznie informacyjny: przedstawia gabinet, usługi i dane kontaktowe. Nie prowadzimy reklam, trackerów marketingowych ani narzędzi analitycznych profilujących użytkowników.",
+      "Tekst ma charakter praktycznego wzorca dla informacyjnej strony gabinetu. W celu formalnej zgodności z prawem polskim i unijnym (RODO) zalecamy jego weryfikację przez wykwalifikowanego doradcę."
+    ],
+    "sections": [
+      {
+        "heading": "Administrator danych",
+        "paragraphs": [
+          "Administrator: OCULUS — Dr Magdalena Turek, ul. Stanisława Moniuszki 10, 64-000 Kościan, Polska.",
+          "Kontakt: +48 65 511 40 27, +48 602 463 717, oculus2@wp.pl."
+        ]
+      },
+      {
+        "heading": "Czego ta strona nie robi",
+        "paragraphs": [
+          "Nie wymagamy kont użytkowników, newsletterów ani formularzy rezerwacji online na tej stronie.",
+          "Nie stosujemy cookies reklamowych, pikseli marketingowych ani analityki odwiedzin (np. Google Analytics).",
+          "Jeśli skontaktujesz się z nami telefonicznie lub e-mailem, samodzielnie przekazujesz nam dane poza tą stroną. Używamy ich wyłącznie do odpowiedzi na zapytanie i komunikacji związanej z opieką."
+        ]
+      },
+      {
+        "heading": "Dane techniczne i hosting",
+        "paragraphs": [
+          "Jak większość stron, dostawca hostingu może przetwarzać dane techniczne potrzebne do wyświetlenia stron (np. adres IP, typ przeglądarki, czas żądania) w logach serwera — w celach bezpieczeństwa i działania usługi.",
+          "Strona może być hostowana u profesjonalnego dostawcy chmury/hostingu (np. Vercel). Dostawca działa jako podmiot przetwarzający dane techniczne związane z hostingiem na podstawie własnych warunków i odpowiednich zabezpieczeń."
+        ]
+      },
+      {
+        "heading": "Usługi zewnętrzne potrzebne do wyświetlenia strony",
+        "paragraphs": [
+          "Czcionki: ładujemy fonty z Google Fonts, aby tekst wyświetlał się poprawnie. Google może otrzymać techniczne dane połączenia przy pobieraniu fontów.",
+          "Mapa: na stronie Kontaktu osadzona jest mapa Google Maps. Korzystanie z mapy może wiązać się z przetwarzaniem danych technicznych przez Google zgodnie z jego polityką prywatności.",
+          "Usługi te służą wyłącznie wyświetlaniu witryny. Nie wykorzystujemy ich do reklam ani profilowania odbiorców na tej stronie."
+        ]
+      },
+      {
+        "heading": "Cookies i podobne technologie",
+        "paragraphs": [
+          "Nie ustawiamy cookies reklamowych ani analitycznych.",
+          "Przeglądarka może zapisać prostą preferencję lokalną po zamknięciu informacji o cookies (aby nie pokazywać jej ponownie). Szczegóły są na stronie Cookies.",
+          "Platforma hostingowa może stosować wyłącznie niezbędne techniczne cookies lub podobne technologie wymagane do bezpieczeństwa i dostarczenia strony."
+        ]
+      },
+      {
+        "heading": "Twoje prawa",
+        "paragraphs": [
+          "Na podstawie RODO możesz mieć prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz wniesienia skargi do Prezesa UODO.",
+          "Aby skorzystać z praw dotyczących danych, które posiadamy (np. z e-maila, który do nas wysłałeś/aś), skontaktuj się z nami pod danymi powyżej."
+        ]
+      },
+      {
+        "heading": "Zmiany",
+        "paragraphs": [
+          "Możemy aktualizować tę politykę, gdy zmieni się strona lub nasze praktyki. Data „Ostatnia aktualizacja” na górze strony zostanie odpowiednio zmieniona."
+        ]
+      }
+    ]
+  },
+  "cookiesPage": {
+    "meta": {
+      "title": "Cookies — OCULUS",
+      "description": "Informacja o cookies i pamięci lokalnej na stronie OCULUS."
+    },
+    "title": "Informacja o cookies",
+    "updated": "Ostatnia aktualizacja: wrzesień 2026",
+    "intro": [
+      "Ta strona wyjaśnia, jak cookies i podobne technologie odnoszą się do witryny OCULUS. Nie używamy cookies do reklam, marketingu ani profilowania analitycznego."
+    ],
+    "sections": [
+      {
+        "heading": "Czego używamy",
+        "paragraphs": [
+          "Niezbędne / techniczne: technologie, które mogą być wymagane przez platformę hostingową do bezpiecznego i niezawodnego dostarczenia strony.",
+          "Preferencja (local storage): po potwierdzeniu informacji o cookies zapisujemy w przeglądarce małą flagę (localStorage), aby nie pokazywać powiadomienia ponownie. Nie służy to śledzeniu Cię w innych serwisach.",
+          "Nie używamy cookies reklamowych ani analitycznych."
+        ]
+      },
+      {
+        "heading": "Podmioty trzecie",
+        "paragraphs": [
+          "Google Fonts oraz osadzona mapa Google Maps mogą ustawiać lub odczytywać cookies albo podobne dane zgodnie z politykami Google, gdy te zasoby się ładują. Używamy ich wyłącznie do wyświetlenia czcionek i lokalizacji gabinetu.",
+          "Cookies możesz kontrolować w ustawieniach przeglądarki, w tym blokować cookies stron trzecich. Blokada niektórych technologii może wpłynąć na fonty lub mapę."
+        ]
+      },
+      {
+        "heading": "Więcej informacji",
+        "paragraphs": [
+          "Zobacz także Politykę prywatności, aby dowiedzieć się, jak ogólnie postępujemy z informacjami.",
+          "Kontakt: oculus2@wp.pl lub +48 65 511 40 27."
+        ]
+      }
+    ]
   },
   "language": {
     "pl": "PL",

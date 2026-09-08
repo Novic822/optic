@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import CookieNotice from "@/components/legal/cookie-notice";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 
@@ -59,6 +60,7 @@ export default async function LangLayout({
         />
         <main className="flex-1">{children}</main>
         <Footer lang={lang} copy={dict.footer} />
+        <CookieNotice lang={lang} copy={dict.cookieNotice} />
       </body>
     </html>
   );
